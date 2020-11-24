@@ -6,7 +6,7 @@ import {
   HttpInterceptor
 } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import {LanguageSelectorService} from './services/language-selector.service';
+import {LanguageSelectorService} from '../language-selector.service';
 
 @Injectable()
 export class LanguageInterceptor implements HttpInterceptor {

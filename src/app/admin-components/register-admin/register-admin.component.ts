@@ -1,17 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import {RegisterAdminData} from '../domain/RegisterAdminData';
-import {RegisterSmartDeviceData} from '../domain/RegisterSmartDeviceData';
-import {AuthenticationService} from '../services/api/authentication.service';
-import {LanguageSelectorService} from '../services/language-selector.service';
-import {NotificationService} from '../services/notification.service';
+import {RegisterAdminData} from '../../domain/RegisterAdminData';
+import {AuthenticationService} from '../../services/api/authentication.service';
+import {LanguageSelectorService} from '../../services/language-selector.service';
+import {NotificationService} from '../../services/notification.service';
 
 @Component({
-  selector: 'app-register-smart-device',
-  templateUrl: './register-smart-device.component.html',
-  styleUrls: ['./register-smart-device.component.css']
+  selector: 'app-register-admin',
+  templateUrl: './register-admin.component.html',
+  styleUrls: ['./register-admin.component.css']
 })
-export class RegisterSmartDeviceComponent implements OnInit {
-  public serialNumber: string;
+export class RegisterAdminComponent implements OnInit {
+  public firstName: string;
+  public lastName: string;
+  public email: string;
   public password: string;
   public errorMessage: string;
 
@@ -25,12 +26,14 @@ export class RegisterSmartDeviceComponent implements OnInit {
   }
 
   public async onRegisterAsync(): Promise<void> {
-    const registerSmartDeviceData: RegisterSmartDeviceData = {
-      serialNumber: this.serialNumber,
+    const registerAdminData: RegisterAdminData = {
+      firstName: this.firstName,
+      lastName: this.lastName,
+      email: this.email,
       password: this.password
     };
     const errorMessage = await this.authenticationService
-      .registerSmartDeviceAsync(registerSmartDeviceData);
+      .registerAdminAsync(registerAdminData);
 
     if (errorMessage) {
       this.errorMessage = errorMessage;
@@ -46,7 +49,9 @@ export class RegisterSmartDeviceComponent implements OnInit {
 
   private resetLocalData(): void {
     this.errorMessage = null;
-    this.serialNumber = '';
+    this.firstName = '';
+    this.lastName = '';
+    this.email = '';
     this.password = '';
   }
 }

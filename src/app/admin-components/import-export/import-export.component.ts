@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {ImportExportService} from '../services/api/import-export.service';
-import {NotificationService} from '../services/notification.service';
-import {LanguageSelectorService} from '../services/language-selector.service';
+import {ImportExportService} from '../../services/api/import-export.service';
+import {NotificationService} from '../../services/notification.service';
+import {LanguageSelectorService} from '../../services/language-selector.service';
 
 @Component({
   selector: 'app-import-export',

@@ -6,7 +6,7 @@ import {
   HttpInterceptor
 } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import {UserManagerService} from './services/user-manager.service';
+import {UserManagerService} from '../user-manager.service';
 
 @Injectable()
 export class AuthorizationInterceptor implements HttpInterceptor {

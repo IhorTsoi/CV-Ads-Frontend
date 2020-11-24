@@ -10,19 +10,25 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatCardModule} from '@angular/material/card';
 import {MatDividerModule} from '@angular/material/divider';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatChipsModule} from '@angular/material/chips';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatDialogModule} from '@angular/material/dialog';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 import {FormsModule} from '@angular/forms';
-import {AuthorizationInterceptor} from './authorization.interceptor';
-import {LanguageInterceptor} from './language.interceptor';
-import { AdminHomeComponent } from './admin-home/admin-home.component';
-import { CustomerHomeComponent } from './customer-home/customer-home.component';
-import { ImportExportComponent } from './import-export/import-export.component';
-import { RegisterAdminComponent } from './register-admin/register-admin.component';
-import { RegisterSmartDeviceComponent } from './register-smart-device/register-smart-device.component';
+import {AuthorizationInterceptor} from './services/interceptors/authorization.interceptor';
+import {LanguageInterceptor} from './services/interceptors/language.interceptor';
+import { AdminHomeComponent } from './admin-components/admin-home/admin-home.component';
+import { CustomerHomeComponent } from './customer-components/customer-home/customer-home.component';
+import { ImportExportComponent } from './admin-components/import-export/import-export.component';
+import { RegisterAdminComponent } from './admin-components/register-admin/register-admin.component';
+import { RegisterSmartDeviceComponent } from './admin-components/register-smart-device/register-smart-device.component';
+import { AdminSmartDevicesComponent } from './admin-components/admin-smart-devices/admin-smart-devices.component';
+import { AdminResetSmartDeviceComponent } from './admin-components/admin-reset-smart-device/admin-reset-smart-device.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +40,9 @@ import { RegisterSmartDeviceComponent } from './register-smart-device/register-s
     CustomerHomeComponent,
     ImportExportComponent,
     RegisterAdminComponent,
-    RegisterSmartDeviceComponent
+    RegisterSmartDeviceComponent,
+    AdminSmartDevicesComponent,
+    AdminResetSmartDeviceComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +56,11 @@ import { RegisterSmartDeviceComponent } from './register-smart-device/register-s
     MatTabsModule,
     MatCardModule,
     MatDividerModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatExpansionModule,
+    MatChipsModule,
+    MatButtonToggleModule,
+    MatDialogModule
   ],
   providers: [
     {

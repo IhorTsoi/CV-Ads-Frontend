@@ -1,0 +1,25 @@
+:host {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+
+div {
+  border-radius: 4px;
+  background-color: aliceblue;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+div>h2 {
+  font-size: 30px;
+}
+
+hr {
+  border: solid #212121;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

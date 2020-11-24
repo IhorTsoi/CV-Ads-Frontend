@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>What is the new password?</h1>
+<hr>
+
+<form ngNativeValidate (submit)="onSetNewPassword()">
+  <input type="password" [(ngModel)]="newPassword" required name="newPassword"
+    style="font-size: 15px;">
+
+  <button type="submit" mat-button color="accent">
+    <span style="font-size: 15px;">Set new password</span>
+  </button>
+</form>

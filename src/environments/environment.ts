@@ -9,6 +9,9 @@ export const environment = {
     registerAdmin: BASE_API_URL + '/admins/register',
     registerSmartDevice: BASE_API_URL + '/smartdevices/register',
     export: BASE_API_URL + '/servicedata',
-    import: BASE_API_URL + '/servicedata'
+    import: BASE_API_URL + '/servicedata',
+    getAllSmartDevices: BASE_API_URL + '/smartdevices',
+    blockSmartDevice: BASE_API_URL + '/smartdevices/{id}/block',
+    resetSmartDevice: BASE_API_URL + '/smartdevices/{id}/reset'
   }
 };
