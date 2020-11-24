@@ -1,0 +1,32 @@
+<h2 *ngIf="pieChartData.values.length === 0"
+  style="text-align: center; margin: 10px 0;">
+  There isn't any views data for this smart device.
+</h2>
+
+<mat-divider *ngIf="pieChartData.values.length > 0"
+ style="margin-top: 20px; margin-bottom: 20px;"></mat-divider>
+
+<div style="display: block" *ngIf="pieChartData.values.length > 0">
+  <canvas baseChart
+          [data]="pieChartData.values"
+          [labels]="pieChartData.labels"
+          [colors]="pieChartData.colors"
+          [options]="pieChartData.options"
+          [chartType]="'pie'">
+  </canvas>
+</div>
+
+<mat-divider *ngIf="barChartData.labels.length > 0"
+ style="margin-top: 20px; margin-bottom: 20px;"></mat-divider>
+
+<div>
+  <div style="display: block" *ngIf="barChartData.labels.length > 0">
+    <canvas baseChart
+            [datasets]="barChartData.datasets"
+            [labels]="barChartData.labels"
+            [options]="barChartData.options"
+            [legend]="true"
+            [chartType]="'bar'">
+    </canvas>
+  </div>
+</div>

@@ -66,6 +66,10 @@
         </mat-button-toggle>
       </mat-button-toggle-group>
 
+      <app-admin-smart-device-statistics *ngIf="smartDevicePanelExpanded[i]"
+        [smartDevice]="smartDevice">
+      </app-admin-smart-device-statistics>
+
     </mat-expansion-panel>
   </mat-accordion>
 </div>

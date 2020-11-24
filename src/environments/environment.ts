@@ -12,6 +12,7 @@ export const environment = {
     import: BASE_API_URL + '/servicedata',
     getAllSmartDevices: BASE_API_URL + '/smartdevices',
     blockSmartDevice: BASE_API_URL + '/smartdevices/{id}/block',
-    resetSmartDevice: BASE_API_URL + '/smartdevices/{id}/reset'
+    resetSmartDevice: BASE_API_URL + '/smartdevices/{id}/reset',
+    getStatisticsForSmartDevice: BASE_API_URL + '/smartdevices/{id}/views'
   }
 };

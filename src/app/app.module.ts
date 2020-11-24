@@ -14,6 +14,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatDialogModule} from '@angular/material/dialog';
+import {ChartsModule} from 'ng2-charts';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -29,6 +30,7 @@ import { RegisterAdminComponent } from './admin-components/register-admin/regist
 import { RegisterSmartDeviceComponent } from './admin-components/register-smart-device/register-smart-device.component';
 import { AdminSmartDevicesComponent } from './admin-components/admin-smart-devices/admin-smart-devices.component';
 import { AdminResetSmartDeviceComponent } from './admin-components/admin-reset-smart-device/admin-reset-smart-device.component';
+import { AdminSmartDeviceStatisticsComponent } from './admin-components/admin-smart-device-statistics/admin-smart-device-statistics.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,8 @@ import { AdminResetSmartDeviceComponent } from './admin-components/admin-reset-s
     RegisterAdminComponent,
     RegisterSmartDeviceComponent,
     AdminSmartDevicesComponent,
-    AdminResetSmartDeviceComponent
+    AdminResetSmartDeviceComponent,
+    AdminSmartDeviceStatisticsComponent
   ],
   imports: [
     BrowserModule,
@@ -60,7 +63,8 @@ import { AdminResetSmartDeviceComponent } from './admin-components/admin-reset-s
     MatExpansionModule,
     MatChipsModule,
     MatButtonToggleModule,
-    MatDialogModule
+    MatDialogModule,
+    ChartsModule
   ],
   providers: [
     {
