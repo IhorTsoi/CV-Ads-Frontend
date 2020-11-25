@@ -1,0 +1,21 @@
+input {
+  width: 100%;
+  font-size: 20px;
+}
+
+label {
+  font-size: 20px;
+}
+
+select {
+  width: 100%;
+  font-size: 20px;
+}
+
+button {
+  width: 100%;
+}
+
+hr {
+  border: solid #212121;
+}

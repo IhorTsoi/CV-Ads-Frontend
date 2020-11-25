@@ -19,6 +19,7 @@ export const environment = {
     getStatisticsForSmartDevice: BASE_API_URL + '/smartdevices/{id}/views',
     getCustomerAdvertisements: BASE_API_URL + '/advertisements',
     changeStatusOfAdvertisement: BASE_API_URL + '/advertisements/{id}',
-    getStatisticsForAdvertisement: BASE_API_URL + '/advertisements/{id}/views'
+    getStatisticsForAdvertisement: BASE_API_URL + '/advertisements/{id}/views',
+    createAdvertisement: BASE_API_URL + '/advertisements'
   }
 };

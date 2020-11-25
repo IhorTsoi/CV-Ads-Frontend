@@ -2,11 +2,12 @@ import {Component, OnInit} from '@angular/core';
 import {Advertisement} from '../../domain/Advertisement';
 import {AdvertisementService} from '../../services/api/advertisement.service';
 import {AdvertisementStatus} from '../../domain/constants/AdvertisementStatus';
-import {PaymentService} from '../../services/api/payment.service';
 import {LanguageSelectorService} from '../../services/language-selector.service';
 import {NotificationService} from '../../services/notification.service';
 import {MatDialog} from '@angular/material/dialog';
 import {AdvertisementDetailsComponent} from '../advertisement-details/advertisement-details.component';
+import {Observable} from 'rxjs';
+import { Input } from '@angular/core';
 
 @Component({
   selector: 'app-customer-advertisements',
@@ -14,6 +15,7 @@ import {AdvertisementDetailsComponent} from '../advertisement-details/advertisem
   styleUrls: ['./customer-advertisements.component.css']
 })
 export class CustomerAdvertisementsComponent implements OnInit {
+  @Input() advertisementCreatedObservable: Observable<null>;
   public advertisements: Advertisement[];
 
   public AdvertisementStatus = AdvertisementStatus;
@@ -27,10 +29,12 @@ export class CustomerAdvertisementsComponent implements OnInit {
 
   ngOnInit(): void {
     this.advertisementService.getCustomerAdvertisementsAsync()
-      .then(advertisements => {
-        this.advertisements = advertisements;
-        console.log(this.advertisements);
-      });
+      .then(advertisements => this.advertisements = advertisements);
+
+    this.advertisementCreatedObservable.subscribe({
+      next: () => this.advertisementService.getCustomerAdvertisementsAsync()
+        .then(advertisements => this.advertisements = advertisements)
+    });
   }
 
   public async onStatusToggleAsync(index: number): Promise<void> {

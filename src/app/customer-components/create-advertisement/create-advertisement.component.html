@@ -1,0 +1,121 @@
+<div class="container">
+  <h2>Create advertisement</h2>
+  <hr>
+
+  <mat-horizontal-stepper linear>
+
+    <mat-step [completed]="firstStepCompleted">
+
+      <ng-template matStepLabel>General information</ng-template>
+
+      <hr>
+      <p *ngIf="displayErrorMessages[0]" style="color: red;">
+        {{displayErrorMessages[0]}}
+      </p>
+      <p>Name:</p>
+      <input type="text" [(ngModel)]="advertisement.name">
+      <p>Views count limit:</p>
+      <input type="number" [(ngModel)]="advertisement.viewsLimit">
+      <p>Picture:</p>
+      <input #fileLoader type="file" accept="image/jpeg"
+             (change)="onFileSelected($event)" style="display: none">
+      <button mat-raised-button (click)="fileLoader.click()" color="primary"
+        style="width: 200px;">
+        Load picture
+      </button>
+      <hr>
+
+      <div>
+        <button mat-raised-button matStepperNext color="primary"
+          (click)="onNext(0)">
+          Next
+        </button>
+      </div>
+
+    </mat-step>
+
+    <mat-step [optional]="true">
+      <ng-template matStepLabel>Location configuration</ng-template>
+
+      <hr>
+      <p>Country:</p>
+      <input type="text" [(ngModel)]="advertisement.countryScope">
+      <p>City:</p>
+      <input type="text" [(ngModel)]="advertisement.cityScope">
+      <hr>
+
+      <div>
+        <button mat-raised-button matStepperPrevious>Back</button>
+        <button mat-raised-button matStepperNext color="primary">Next</button>
+      </div>
+
+    </mat-step>
+
+    <mat-step [optional]="true">
+      <ng-template matStepLabel>Human limits</ng-template>
+
+      <hr>
+      <p *ngIf="!advertisement.humanLimits">No human limits specified.</p>
+      <div *ngIf="advertisement.humanLimits">
+        <p>
+          Human Limits:
+        </p>
+        <p style="margin-left: 20px;"
+           *ngFor="let humanLimit of humanLimits">{{humanLimit}}</p>
+      </div>
+
+      <button mat-raised-button color="accent" style="width: 300px;"
+              (click)="onAddHumanLimit()">
+        Add human limit
+      </button>
+      <hr>
+
+      <div>
+        <button mat-raised-button matStepperPrevious>Back</button>
+        <button mat-raised-button matStepperNext color="primary">Next</button>
+      </div>
+
+    </mat-step>
+
+    <mat-step [optional]="true">
+      <ng-template matStepLabel>Time limits</ng-template>
+
+      <hr>
+      <p *ngIf="!advertisement.timePeriodLimits">No time limits specified.</p>
+      <div *ngIf="advertisement.timePeriodLimits">
+        <p>
+          Time Limits:
+        </p>
+        <p style="margin-left: 20px;"
+           *ngFor="let timeLimit of timeLimits">{{timeLimit}}</p>
+      </div>
+
+      <button mat-raised-button color="accent" style="width: 300px;"
+        (click)="onAddTimeLimit()">
+        Add time limit
+      </button>
+      <hr>
+
+      <div>
+        <button mat-raised-button matStepperPrevious>Back</button>
+        <button mat-raised-button matStepperNext color="primary">Next</button>
+      </div>
+
+    </mat-step>
+
+    <mat-step>
+
+      <ng-template matStepLabel>Done</ng-template>
+
+      <hr>
+      <p>To create an advertisement click 'Create!' button.</p>
+      <hr>
+
+      <div>
+        <button mat-raised-button matStepperPrevious>Back</button>
+        <button mat-raised-button (click)="onDone()" color="accent">Create!</button>
+      </div>
+
+    </mat-step>
+  </mat-horizontal-stepper>
+</div>

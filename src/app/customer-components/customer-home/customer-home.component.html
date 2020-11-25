@@ -1,10 +1,14 @@
-<mat-tab-group mat-align-tabs="center" [backgroundColor]="'primary'">
+<mat-tab-group mat-align-tabs="center" [backgroundColor]="'primary'"
+  [selectedIndex]="selectedTabIndex"
+  (selectedIndexChange)="onSelectedTabIndexChange($event)">
   <mat-tab label="My advertisements">
-    <app-customer-advertisements></app-customer-advertisements>
+    <app-customer-advertisements
+      [advertisementCreatedObservable]="advertisementCreatedObservable"></app-customer-advertisements>
   </mat-tab>
 
   <mat-tab label="Create advertisement">
-
+    <app-create-advertisement [createAdvertisementSubject]="createAdvertisementSubject">
+    </app-create-advertisement>
   </mat-tab>
 
   <mat-tab label="Cost & Payment">

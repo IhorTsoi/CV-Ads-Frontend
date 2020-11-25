@@ -16,6 +16,7 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatStepperModule} from '@angular/material/stepper';
 import {ChartsModule} from 'ng2-charts';
 
 import { AppComponent } from './app.component';
@@ -36,6 +37,9 @@ import { AdminSmartDeviceStatisticsComponent } from './admin-components/admin-sm
 import { CustomerCostPaymentComponent } from './customer-components/customer-cost-payment/customer-cost-payment.component';
 import { CustomerAdvertisementsComponent } from './customer-components/customer-advertisements/customer-advertisements.component';
 import { AdvertisementDetailsComponent } from './customer-components/advertisement-details/advertisement-details.component';
+import { CreateAdvertisementComponent } from './customer-components/create-advertisement/create-advertisement.component';
+import { AddHumanLimitComponent } from './customer-components/add-human-limit/add-human-limit.component';
+import { AddTimeLimitComponent } from './customer-components/add-time-limit/add-time-limit.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +57,10 @@ import { AdvertisementDetailsComponent } from './customer-components/advertiseme
     AdminSmartDeviceStatisticsComponent,
     CustomerCostPaymentComponent,
     CustomerAdvertisementsComponent,
-    AdvertisementDetailsComponent
+    AdvertisementDetailsComponent,
+    CreateAdvertisementComponent,
+    AddHumanLimitComponent,
+    AddTimeLimitComponent
   ],
   imports: [
     BrowserModule,
@@ -74,6 +81,7 @@ import { AdvertisementDetailsComponent } from './customer-components/advertiseme
     MatDialogModule,
     MatGridListModule,
     MatSlideToggleModule,
+    MatStepperModule,
     ChartsModule
   ],
   providers: [
