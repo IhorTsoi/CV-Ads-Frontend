@@ -6,6 +6,8 @@ export const environment = {
     loginAdmin: BASE_API_URL + '/admins/login',
     loginCustomer: BASE_API_URL + '/customers/login',
     registerCustomer: BASE_API_URL + '/customers/register',
+    getCustomerPaymentAmount: BASE_API_URL + '/customers/payment',
+    payCustomer: BASE_API_URL + '/customers/payment',
     registerAdmin: BASE_API_URL + '/admins/register',
     registerSmartDevice: BASE_API_URL + '/smartdevices/register',
     export: BASE_API_URL + '/servicedata',

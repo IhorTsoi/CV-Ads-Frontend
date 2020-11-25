@@ -31,6 +31,7 @@ import { RegisterSmartDeviceComponent } from './admin-components/register-smart-
 import { AdminSmartDevicesComponent } from './admin-components/admin-smart-devices/admin-smart-devices.component';
 import { AdminResetSmartDeviceComponent } from './admin-components/admin-reset-smart-device/admin-reset-smart-device.component';
 import { AdminSmartDeviceStatisticsComponent } from './admin-components/admin-smart-device-statistics/admin-smart-device-statistics.component';
+import { CustomerCostPaymentComponent } from './customer-components/customer-cost-payment/customer-cost-payment.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { AdminSmartDeviceStatisticsComponent } from './admin-components/admin-sm
     RegisterSmartDeviceComponent,
     AdminSmartDevicesComponent,
     AdminResetSmartDeviceComponent,
-    AdminSmartDeviceStatisticsComponent
+    AdminSmartDeviceStatisticsComponent,
+    CustomerCostPaymentComponent
   ],
   imports: [
     BrowserModule,
