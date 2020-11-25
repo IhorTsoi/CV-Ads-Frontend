@@ -1,27 +1,26 @@
-<h2>Add human limit</h2>
+<h2 i18n>Add human limit</h2>
 <hr>
 
 <form ngNativeValidate (submit)="onAddHumanLimit()">
-  <label>Gender:
-    <select name="gender" required [(ngModel)]="humanLimit.gender">
-      <option value="{{Gender.NotSpecified}}">Not specified</option>
-      <option value="{{Gender.Male}}">Male</option>
-      <option value="{{Gender.Female}}">Female</option>
-    </select>
-  </label>
+  <label for="genderSelect" i18n>Gender:</label>
+  <select name="gender" required [(ngModel)]="humanLimit.gender" id="genderSelect">
+    <option value="{{Gender.NotSpecified}}" i18n>Not specified</option>
+    <option value="{{Gender.Male}}" i18n>Male</option>
+    <option value="{{Gender.Female}}" i18n>Female</option>
+  </select>
   <br><br>
 
-  <label>Minimum age:
+  <label i18n>Minimum age:
     <input type="number" min="0" max="100" name="minAge" required [(ngModel)]="humanLimit.minAge">
   </label>
   <br><br>
 
-  <label>Maximum age:
+  <label i18n>Maximum age:
     <input type="number" min="0" max="100" name="maxAge" required [(ngModel)]="humanLimit.maxAge">
   </label>
   <br><br>
 
   <button type="submit" mat-button color="accent">
-    <span style="font-size: 15px;">Add new human limit</span>
+    <span style="font-size: 15px;" i18n>Add new human limit</span>
   </button>
 </form>

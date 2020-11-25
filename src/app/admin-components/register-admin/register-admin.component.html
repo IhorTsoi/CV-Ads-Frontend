@@ -1,5 +1,5 @@
 <div>
-  <h2>New admin data</h2>
+  <h2 i18n>New admin data</h2>
   <hr>
 
   <p *ngIf="errorMessage" style="color: #e43e32; font-size: 18px;">
@@ -7,29 +7,29 @@
   </p>
 
   <form ngNativeValidate (submit)="onRegisterAsync()">
-    <label>First name:
+    <label i18n>First name:
       <input type="text" [(ngModel)]="firstName"
              required autocomplete="off" name="firstName">
     </label>
     <br>
-    <label>Last name:
+    <label i18n>Last name:
       <input type="text" [(ngModel)]="lastName"
              required autocomplete="off" name="lastName">
     </label>
     <br>
-    <label>Email:
+    <label i18n>Email:
       <input type="text" [(ngModel)]="email"
              required autocomplete="off" name="email">
     </label>
     <br>
-    <label>Password:
+    <label i18n>Password:
       <input type="password" [(ngModel)]="password"
              required autocomplete="off" name="password">
     </label>
 
     <br>
 
-    <button type="submit" mat-raised-button color="primary">
+    <button type="submit" mat-raised-button color="primary" i18n>
       Register
     </button>
   </form>

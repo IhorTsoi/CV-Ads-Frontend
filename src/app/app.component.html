@@ -2,33 +2,33 @@
   <span>CV - Ads🤖</span>
   <span class="spacer"></span>
   <button routerLink="/register" mat-button class="header">
-    <span>Register</span>
+    <span i18n>Register</span>
   </button>
   <button routerLink="/login" mat-button class="header">
-    <span>Login</span>
+    <span i18n>Login</span>
   </button>
 </mat-toolbar>
 
 <mat-toolbar *ngIf="token">
-  <span *ngIf="isAdmin">CV - Ads | Admin panel🤖</span>
+  <span *ngIf="isAdmin" i18n>CV - Ads | Admin panel🤖</span>
   <span *ngIf="!isAdmin">CV - Ads🤖</span>
 
   <span class="spacer"></span>
 
-  <span>Hello, {{token.firstName}} {{token.lastName}}!</span>
+  <span i18n>Hello, {{token.firstName}} {{token.lastName}}!</span>
 
   <button class="header" mat-button [matMenuTriggerFor]="beforeMenu"
           style="background-color: #8e8ef6; color: black;">
-    <span>Change language🌎</span>
+    <span i18n>Change language🌎</span>
   </button>
   <mat-menu #beforeMenu="matMenu" xPosition="before">
-    <button mat-menu-item (click)="onLanguageChange('en')">English</button>
-    <button mat-menu-item (click)="onLanguageChange('ua')">Ukrainian</button>
+    <button mat-menu-item (click)="onLanguageChange('en')" i18n>English</button>
+    <button mat-menu-item (click)="onLanguageChange('ua')" i18n>Ukrainian</button>
   </mat-menu>
 
   <button (click)="onLogoutAsync()" class="header" mat-button
     style="background-color: aliceblue; color: black;">
-    <span>Logout🚪</span>
+    <span i18n>Logout🚪</span>
   </button>
 
 

@@ -1,5 +1,5 @@
 <div class="container">
-  <h2>
+  <h2 i18n>
     My advertisements
   </h2>
   <hr>
@@ -15,13 +15,13 @@
 
         <mat-divider></mat-divider>
 
-        <h3>Views count: {{ad.viewsCount}}</h3>
-        <h3>Views limit: {{ad.viewsLimit}}</h3>
+        <h3 i18n>Views count: {{ad.viewsCount}}</h3>
+        <h3 i18n>Views limit: {{ad.viewsLimit}}</h3>
 
         <mat-divider></mat-divider>
 
         <div style="display: flex; margin: 5px 10px;color: white; justify-content: space-between;">
-          <p style="font-size: 20px;margin-top: auto; margin-bottom: auto; margin-right: 10px;">
+          <p style="font-size: 20px;margin-top: auto; margin-bottom: auto; margin-right: 10px;" i18n>
             Published:
           </p>
           <mat-slide-toggle [checked]="ad.status === AdvertisementStatus.Published"

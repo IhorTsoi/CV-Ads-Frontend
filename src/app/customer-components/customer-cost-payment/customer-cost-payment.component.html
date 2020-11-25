@@ -1,13 +1,13 @@
 <div>
-  <h2 *ngIf="paymentAmount !== undefined">
+  <h2 *ngIf="paymentAmount !== undefined" i18n>
     Payment amount: {{paymentAmount | number: '.2'}} $
   </h2>
   <hr>
   <div style="display: flex; margin: auto 0;">
-    <p style="font-size: 20px;margin-top: auto; margin-bottom: auto; margin-right: 10px;">
+    <p style="font-size: 20px;margin-top: auto; margin-bottom: auto; margin-right: 10px;" i18n>
       Please click the button to pay for services provided by CV-Ads:
     </p>
-    <button mat-raised-button (click)="onPayAsync()" color="primary">
+    <button mat-raised-button (click)="onPayAsync()" color="primary" i18n>
       Pay
     </button>
   </div>

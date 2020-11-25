@@ -2,11 +2,11 @@
   <h1>*️⃣ "{{advertisement.name}}"</h1>
   <mat-chip-list aria-label="Advertisement status">
     <mat-chip color="accent"
-      *ngIf="advertisement.status === AdvertisementStatus.Published" selected>
+      *ngIf="advertisement.status === AdvertisementStatus.Published" selected i18n>
       Status: Published
     </mat-chip>
     <mat-chip color="warn"
-      *ngIf="advertisement.status === AdvertisementStatus.Draft" selected>
+      *ngIf="advertisement.status === AdvertisementStatus.Draft" selected i18n>
       Status: Draft
     </mat-chip>
   </mat-chip-list>
@@ -15,28 +15,28 @@
 <hr>
 
 <mat-dialog-content class="mat-typography">
-  <h3>🟢 Location: {{location}}</h3>
+  <h3 i18n>🟢 Location: {{location}}</h3>
 
   <hr>
 
-  <h3>🟢 Human limits: </h3>
+  <h3 i18n>🟢 Human limits: </h3>
   <p *ngFor="let humanLimit of humanLimits">
     {{humanLimit}}
   </p>
 
   <hr>
 
-  <h3>🟢 Time limits: </h3>
+  <h3 i18n>🟢 Time limits: </h3>
   <p *ngFor="let timeLimit of timeLimits">
     {{timeLimit}}
   </p>
 
   <hr>
 
-  <h3>🟢 Statistics:</h3>
+  <h3 i18n>🟢 Statistics:</h3>
 
   <h2 *ngIf="pieChartData.values.length === 0"
-      style="text-align: center; margin: 10px 0;">
+      style="text-align: center; margin: 10px 0;" i18n>
     There isn't any views data for this advertisement.
   </h2>
 
@@ -44,7 +44,7 @@
     style="display: flex; justify-content: space-between;">
 
     <div style="width: 50%;">
-      <h4>Location statistics:</h4>
+      <h4 i18n>Location statistics:</h4>
       <div style="display: block" *ngIf="pieChartData.values.length > 0">
         <canvas baseChart
                 [data]="pieChartData.values"
@@ -57,7 +57,7 @@
     </div>
 
     <div style="width: 50%">
-      <h4>Views and audience count per day statistics:</h4>
+      <h4 i18n>Views and audience count per day statistics:</h4>
       <div style="display: block" *ngIf="barChartData.labels.length > 0">
         <canvas baseChart
                 [datasets]="barChartData.datasets"

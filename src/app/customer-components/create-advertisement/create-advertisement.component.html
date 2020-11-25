@@ -1,33 +1,33 @@
 <div class="container">
-  <h2>Create advertisement</h2>
+  <h2 i18n>Create advertisement</h2>
   <hr>
 
   <mat-horizontal-stepper linear>
 
     <mat-step [completed]="firstStepCompleted">
 
-      <ng-template matStepLabel>General information</ng-template>
+      <ng-template matStepLabel i18n>General information</ng-template>
 
       <hr>
       <p *ngIf="displayErrorMessages[0]" style="color: red;">
         {{displayErrorMessages[0]}}
       </p>
-      <p>Name:</p>
+      <p i18n>Name:</p>
       <input type="text" [(ngModel)]="advertisement.name">
-      <p>Views count limit:</p>
+      <p i18n>Views count limit:</p>
       <input type="number" [(ngModel)]="advertisement.viewsLimit">
-      <p>Picture:</p>
+      <p i18n>Picture:</p>
       <input #fileLoader type="file" accept="image/jpeg"
              (change)="onFileSelected($event)" style="display: none">
       <button mat-raised-button (click)="fileLoader.click()" color="primary"
-        style="width: 200px;">
+        style="width: 200px;" i18n>
         Load picture
       </button>
       <hr>
 
       <div>
         <button mat-raised-button matStepperNext color="primary"
-          (click)="onNext(0)">
+          (click)="onNext(0)" i18n>
           Next
         </button>
       </div>
@@ -35,29 +35,29 @@
     </mat-step>
 
     <mat-step [optional]="true">
-      <ng-template matStepLabel>Location configuration</ng-template>
+      <ng-template matStepLabel i18n>Location configuration</ng-template>
 
       <hr>
-      <p>Country:</p>
+      <p i18n>Country:</p>
       <input type="text" [(ngModel)]="advertisement.countryScope">
-      <p>City:</p>
+      <p i18n>City:</p>
       <input type="text" [(ngModel)]="advertisement.cityScope">
       <hr>
 
       <div>
-        <button mat-raised-button matStepperPrevious>Back</button>
-        <button mat-raised-button matStepperNext color="primary">Next</button>
+        <button mat-raised-button matStepperPrevious i18n>Back</button>
+        <button mat-raised-button matStepperNext color="primary" i18n>Next</button>
       </div>
 
     </mat-step>
 
     <mat-step [optional]="true">
-      <ng-template matStepLabel>Human limits</ng-template>
+      <ng-template matStepLabel i18n>Human limits</ng-template>
 
       <hr>
-      <p *ngIf="!advertisement.humanLimits">No human limits specified.</p>
+      <p *ngIf="!advertisement.humanLimits" i18n>No human limits specified.</p>
       <div *ngIf="advertisement.humanLimits">
-        <p>
+        <p i18n>
           Human Limits:
         </p>
         <p style="margin-left: 20px;"
@@ -65,25 +65,25 @@
       </div>
 
       <button mat-raised-button color="accent" style="width: 300px;"
-              (click)="onAddHumanLimit()">
+              (click)="onAddHumanLimit()" i18n>
         Add human limit
       </button>
       <hr>
 
       <div>
-        <button mat-raised-button matStepperPrevious>Back</button>
-        <button mat-raised-button matStepperNext color="primary">Next</button>
+        <button mat-raised-button matStepperPrevious i18n>Back</button>
+        <button mat-raised-button matStepperNext color="primary" i18n>Next</button>
       </div>
 
     </mat-step>
 
     <mat-step [optional]="true">
-      <ng-template matStepLabel>Time limits</ng-template>
+      <ng-template matStepLabel i18n>Time limits</ng-template>
 
       <hr>
-      <p *ngIf="!advertisement.timePeriodLimits">No time limits specified.</p>
+      <p *ngIf="!advertisement.timePeriodLimits" i18n>No time limits specified.</p>
       <div *ngIf="advertisement.timePeriodLimits">
-        <p>
+        <p i18n>
           Time Limits:
         </p>
         <p style="margin-left: 20px;"
@@ -91,29 +91,29 @@
       </div>
 
       <button mat-raised-button color="accent" style="width: 300px;"
-        (click)="onAddTimeLimit()">
+        (click)="onAddTimeLimit()" i18n>
         Add time limit
       </button>
       <hr>
 
       <div>
-        <button mat-raised-button matStepperPrevious>Back</button>
-        <button mat-raised-button matStepperNext color="primary">Next</button>
+        <button mat-raised-button matStepperPrevious i18n>Back</button>
+        <button mat-raised-button matStepperNext color="primary" i18n>Next</button>
       </div>
 
     </mat-step>
 
     <mat-step>
 
-      <ng-template matStepLabel>Done</ng-template>
+      <ng-template matStepLabel i18n>Done</ng-template>
 
       <hr>
-      <p>To create an advertisement click 'Create!' button.</p>
+      <p i18n>To create an advertisement click 'Create!' button.</p>
       <hr>
 
       <div>
-        <button mat-raised-button matStepperPrevious>Back</button>
-        <button mat-raised-button (click)="onDone()" color="accent">Create!</button>
+        <button mat-raised-button matStepperPrevious i18n>Back</button>
+        <button mat-raised-button (click)="onDone()" color="accent" i18n>Create!</button>
       </div>
 
     </mat-step>

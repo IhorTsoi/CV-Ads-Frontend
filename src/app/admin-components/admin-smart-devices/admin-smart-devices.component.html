@@ -1,5 +1,5 @@
 <div>
-  <h2>Smart devices</h2>
+  <h2 i18n>Smart devices</h2>
   <hr>
 
   <mat-accordion *ngIf="smartDevices" multi>
@@ -9,7 +9,7 @@
       [expanded]="smartDevicePanelExpanded[i]">
 
       <mat-expansion-panel-header>
-        <mat-panel-title>
+        <mat-panel-title i18n>
           SN: {{smartDevice.serialNumber}}
         </mat-panel-title>
 
@@ -18,31 +18,31 @@
 
           <mat-chip-list aria-label="Smart device data">
 
-            <container-element [ngSwitch]="smartDevice.mode">
-              <mat-chip color="warn" selected *ngSwitchCase="Mode.Inactive">
+            <ng-container [ngSwitch]="smartDevice.mode">
+              <mat-chip color="warn" selected *ngSwitchCase="Mode.Inactive" i18n>
                 Inactive
               </mat-chip>
-              <mat-chip color="accent" selected *ngSwitchCase="Mode.Active">
+              <mat-chip color="accent" selected *ngSwitchCase="Mode.Active" i18n>
                 Active
               </mat-chip>
-              <mat-chip *ngSwitchCase="Mode.Blocked">
+              <mat-chip *ngSwitchCase="Mode.Blocked" i18n>
                 Blocked
               </mat-chip>
-            </container-element>
+            </ng-container>
 
 
 
-            <mat-chip color="accent" *ngIf="smartDevice.isTurnedOn" selected>
+            <mat-chip color="accent" *ngIf="smartDevice.isTurnedOn" selected i18n>
               Is turned on
             </mat-chip>
-            <mat-chip color="accent" *ngIf="!smartDevice.isTurnedOn">
+            <mat-chip color="accent" *ngIf="!smartDevice.isTurnedOn" i18n>
               Is turned off
             </mat-chip>
 
-            <mat-chip color="accent" *ngIf="smartDevice.isCaching" selected>
+            <mat-chip color="accent" *ngIf="smartDevice.isCaching" selected i18n>
               Caching
             </mat-chip>
-            <mat-chip color="accent" *ngIf="!smartDevice.isCaching">
+            <mat-chip color="accent" *ngIf="!smartDevice.isCaching" i18n>
               Not caching
             </mat-chip>
           </mat-chip-list>
@@ -56,12 +56,12 @@
       <mat-button-toggle-group style="width: 100%;">
         <mat-button-toggle color="warn" style="width: 50%;"
           [disabled]="smartDevice.mode !== Mode.Active"
-          (change)="onBlockAsync(i)">
+          (change)="onBlockAsync(i)" i18n>
           Block
         </mat-button-toggle>
         <mat-button-toggle color="accent" style="width: 50%;"
           [disabled]="smartDevice.mode !== Mode.Blocked"
-          (change)="onResetAsync(i)">
+          (change)="onResetAsync(i)" i18n>
           Reset
         </mat-button-toggle>
       </mat-button-toggle-group>

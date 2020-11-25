@@ -1,5 +1,5 @@
 <div>
-  <h2>New smart device data</h2>
+  <h2 i18n>New smart device data</h2>
   <hr>
 
   <p *ngIf="errorMessage" style="color: #e43e32; font-size: 18px;">
@@ -7,19 +7,19 @@
   </p>
 
   <form ngNativeValidate (submit)="onRegisterAsync()">
-    <label>Serial number:
+    <label i18n>Serial number:
       <input type="text" [(ngModel)]="serialNumber"
              required autocomplete="off" name="serialNumber">
     </label>
     <br>
-    <label>Password:
+    <label i18n>Password:
       <input type="password" [(ngModel)]="password"
              required autocomplete="off" name="password">
     </label>
 
     <br>
 
-    <button type="submit" mat-raised-button color="primary">
+    <button type="submit" mat-raised-button color="primary" i18n>
       Register
     </button>
   </form>
