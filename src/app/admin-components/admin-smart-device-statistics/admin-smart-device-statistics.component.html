@@ -1,10 +1,17 @@
+<mat-divider style="margin-top: 20px; margin-bottom: 20px;"></mat-divider>
+<h2>Partner name:
+  {{partnerFullName}}
+</h2>
+<h2>Partner email:
+  {{partnerEmail}}
+</h2>
+
+<mat-divider style="margin-top: 20px; margin-bottom: 20px;"></mat-divider>
+
 <h2 *ngIf="pieChartData.values.length === 0"
   style="text-align: center; margin: 10px 0;">
   There isn't any views data for this smart device.
 </h2>
-
-<mat-divider *ngIf="pieChartData.values.length > 0"
- style="margin-top: 20px; margin-bottom: 20px;"></mat-divider>
 
 <div style="display: block" *ngIf="pieChartData.values.length > 0">
   <canvas baseChart

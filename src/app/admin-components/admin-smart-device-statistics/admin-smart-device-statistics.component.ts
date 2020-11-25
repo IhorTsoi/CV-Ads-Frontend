@@ -3,8 +3,13 @@ import { View } from 'src/app/domain/View';
 import {SmartDevice} from '../../domain/SmartDevice';
 import {SmartDeviceService} from '../../services/api/smart-device.service';
 import {getDateString, toLocalDate} from '../../services/functions/dateFunctions';
+import {LanguageSelectorService} from '../../services/language-selector.service';
 
-const CHART_COLORS = ['rgba(255,0,0,0.3)', 'rgba(0,255,0,0.3)', 'rgba(0,0,255,0.3)'];
+const CHART_COLORS = [
+  'rgba(255,0,0,0.3)',
+  'rgba(0,255,0,0.3)',
+  'rgba(0,0,255,0.3)'
+];
 const DATA_VIEWS_COUNT_INDEX = 0;
 const DATA_AUDIENCE_COUNT_INDEX = 1;
 
@@ -31,8 +36,8 @@ export class AdminSmartDeviceStatisticsComponent implements OnInit {
   };
   public barChartData = {
     datasets: [
-      {data: [], label: 'Views count'},
-      {data: [], label: 'Audience count'}
+      {data: [], label: null},
+      {data: [], label: null}
     ],
     labels: [],
     options: {
@@ -58,7 +63,10 @@ export class AdminSmartDeviceStatisticsComponent implements OnInit {
     }
   };
 
-  constructor(private smartDeviceService: SmartDeviceService) { }
+  constructor(
+    private smartDeviceService: SmartDeviceService,
+    private languageService: LanguageSelectorService
+  ) { }
 
   ngOnInit(): void {
     this.smartDeviceService.getViewsForSmartDeviceAsync(this.smartDevice)
@@ -66,6 +74,18 @@ export class AdminSmartDeviceStatisticsComponent implements OnInit {
         this.SetPieChartData(views);
         this.setBarChartData(views);
       });
+  }
+
+  public get partnerFullName(): string {
+    const defaultFullName = this.getLocalizedNoDataMessage();
+    return this.smartDevice.partnerFirstName ?
+      `${this.smartDevice.partnerFirstName} ${this.smartDevice.partnerLastName}` :
+      defaultFullName;
+  }
+
+  public get partnerEmail(): string {
+    const defaultEmail = this.getLocalizedNoDataMessage();
+    return this.smartDevice.partnerEmail ?? defaultEmail;
   }
 
   private SetPieChartData(views: View[]): void {
@@ -86,8 +106,6 @@ export class AdminSmartDeviceStatisticsComponent implements OnInit {
   }
 
   private setBarChartData(views: View[]): void {
-    const dateIndex: { [key: string]: number } = {};
-
     views.sort((firstView, secondView) => {
       const firstDateMilliseconds = toLocalDate(firstView.dateTime).getTime();
       const secondDataMilliseconds = toLocalDate(secondView.dateTime).getTime();
@@ -109,9 +127,8 @@ export class AdminSmartDeviceStatisticsComponent implements OnInit {
           .data.push(view.audienceCount);
       }
     });
-
     this.configureBarChartScale();
-    console.table(views);
+    this.localizeBarChartLegend();
   }
 
   private configureBarChartScale(): void {
@@ -123,5 +140,21 @@ export class AdminSmartDeviceStatisticsComponent implements OnInit {
 
     this.barChartData.options.scales.yAxes[0].ticks.stepSize = stepSize;
     this.barChartData.options.scales.yAxes[0].ticks.suggestedMax = maxBarHeight;
+  }
+
+  private getLocalizedNoDataMessage(): string {
+    return this.languageService.getPreferredLanguage() === 'ua' ?
+      'немає даних' :
+      'none';
+  }
+
+  private localizeBarChartLegend(): void {
+    if (this.languageService.getPreferredLanguage() === 'ua') {
+      this.barChartData.datasets[DATA_VIEWS_COUNT_INDEX].label = 'Кількість показів';
+      this.barChartData.datasets[DATA_AUDIENCE_COUNT_INDEX].label = 'Об\'єм аудиторії';
+    } else {
+      this.barChartData.datasets[DATA_VIEWS_COUNT_INDEX].label = 'Views count';
+      this.barChartData.datasets[DATA_AUDIENCE_COUNT_INDEX].label = 'Audience count';
+    }
   }
 }
