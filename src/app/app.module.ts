@@ -14,6 +14,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatDialogModule} from '@angular/material/dialog';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {ChartsModule} from 'ng2-charts';
 
 import { AppComponent } from './app.component';
@@ -32,6 +34,8 @@ import { AdminSmartDevicesComponent } from './admin-components/admin-smart-devic
 import { AdminResetSmartDeviceComponent } from './admin-components/admin-reset-smart-device/admin-reset-smart-device.component';
 import { AdminSmartDeviceStatisticsComponent } from './admin-components/admin-smart-device-statistics/admin-smart-device-statistics.component';
 import { CustomerCostPaymentComponent } from './customer-components/customer-cost-payment/customer-cost-payment.component';
+import { CustomerAdvertisementsComponent } from './customer-components/customer-advertisements/customer-advertisements.component';
+import { AdvertisementDetailsComponent } from './customer-components/advertisement-details/advertisement-details.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +51,9 @@ import { CustomerCostPaymentComponent } from './customer-components/customer-cos
     AdminSmartDevicesComponent,
     AdminResetSmartDeviceComponent,
     AdminSmartDeviceStatisticsComponent,
-    CustomerCostPaymentComponent
+    CustomerCostPaymentComponent,
+    CustomerAdvertisementsComponent,
+    AdvertisementDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -66,6 +72,8 @@ import { CustomerCostPaymentComponent } from './customer-components/customer-cos
     MatChipsModule,
     MatButtonToggleModule,
     MatDialogModule,
+    MatGridListModule,
+    MatSlideToggleModule,
     ChartsModule
   ],
   providers: [

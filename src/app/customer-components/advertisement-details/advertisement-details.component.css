@@ -1,0 +1,9 @@
+hr {
+  border: solid #212121;
+}
+
+p {
+  margin-bottom: 5px;
+  margin-left: 50px;
+  font-size: 15px;
+}

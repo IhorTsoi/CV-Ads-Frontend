@@ -2,6 +2,7 @@ const BASE_API_URL = 'https://localhost:5001';
 
 export const environment = {
   production: false,
+  baseAPIUrl: BASE_API_URL,
   endpoints: {
     loginAdmin: BASE_API_URL + '/admins/login',
     loginCustomer: BASE_API_URL + '/customers/login',
@@ -15,6 +16,9 @@ export const environment = {
     getAllSmartDevices: BASE_API_URL + '/smartdevices',
     blockSmartDevice: BASE_API_URL + '/smartdevices/{id}/block',
     resetSmartDevice: BASE_API_URL + '/smartdevices/{id}/reset',
-    getStatisticsForSmartDevice: BASE_API_URL + '/smartdevices/{id}/views'
+    getStatisticsForSmartDevice: BASE_API_URL + '/smartdevices/{id}/views',
+    getCustomerAdvertisements: BASE_API_URL + '/advertisements',
+    changeStatusOfAdvertisement: BASE_API_URL + '/advertisements/{id}',
+    getStatisticsForAdvertisement: BASE_API_URL + '/advertisements/{id}/views'
   }
 };
