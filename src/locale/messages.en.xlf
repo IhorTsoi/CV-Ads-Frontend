@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="cfc2f436ec2beffb042e7511a73c89c372e86a6c" datatype="html">
+        <source>Register</source>
+        <target>Register</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6765b4c916060f6bc42d9bb69e80377dbcb5e4e9" datatype="html">
+        <source>Login</source>
+        <target>Login</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d775f2400c3fe5b7a82a77be9ab458f895b5dbc5" datatype="html">
+        <source>CV - Ads | Admin panel🤖</source>
+        <target>CV - Ads | Admin panel🤖</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0d1bb5d858090c0e2451a5adb5dc041698f91682" datatype="html">
+        <source>Hello, <x id="INTERPOLATION" equiv-text="{{token.firstName}}"/> <x id="INTERPOLATION_1" equiv-text="{{token.lastName}}"/>!</source>
+        <target>Hello, <x id="INTERPOLATION" equiv-text="{{token.firstName}}"/> <x id="INTERPOLATION_1" equiv-text="{{token.lastName}}"/>!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d3993396db8ff811a912a7c3171180f0fe16abc0" datatype="html">
+        <source>Change language🌎</source>
+        <target>Change language🌎</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a0843de0a64adcc7ee6a946408b6876cd8abdcae" datatype="html">
+        <source>English</source>
+        <target>English</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1dd52431ef154da92bff7ad9a46b6aceff223c51" datatype="html">
+        <source>Ukrainian</source>
+        <target>Ukrainian</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f9e302f807112a82cdfe41a2c73fe82acd955a52" datatype="html">
+        <source>Logout🚪</source>
+        <target>Logout🚪</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="08c74dc9762957593b91f6eb5d65efdfc975bf48" datatype="html">
+        <source>Username</source>
+        <target>Username</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
+        <source>Password</source>
+        <target>Password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d5b7a901d0fdfb57f05c285d58f69bb0d4bee369" datatype="html">
+        <source>
+    <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+    <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+    <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+    <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+    Submit
+  </source>
+  <target>
+      <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+      <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+      <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+      <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+      Submit
+    </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="62b6c66981335ca6eecc36b331103c60f09d1026" datatype="html">
+        <source>First name</source>
+        <target>First name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6ce3dadf53dda1a1ab0c3167a8ed8dced471b0dc" datatype="html">
+        <source>Last name</source>
+        <target>Last name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
+        <source>Email</source>
+        <target>Email</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b085b88f7e8344b351f164cb3f66eefcc24e8b46" datatype="html">
+        <source>Monitor smart devices</source>
+        <target>Monitor smart devices</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-home/admin-home.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="595d5bdb49399d1bb5833a5502ae7b9948a5e351" datatype="html">
+        <source>Register smart device</source>
+        <target>Register smart device</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-home/admin-home.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6ce6b7282318d2d2f6826801f3f6d255e6a3deb7" datatype="html">
+        <source>Register admin</source>
+        <target>Register admin</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-home/admin-home.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2d8cc40e51f29b2c8500277f95c139c1363c6abd" datatype="html">
+        <source>Import / Export</source>
+        <target>Import / Export</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-home/admin-home.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="838465ad3f00a6864ec30f343f50ecfb086865a7" datatype="html">
+        <source>My advertisements</source>
+        <target>My advertisements</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/customer-home/customer-home.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="87c96d62d18f04baaf061b22ad5a23065db688fa" datatype="html">
+        <source>Create advertisement</source>
+        <target>Create advertisement</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/customer-home/customer-home.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="27b5fa8ecc5821faf24cdc8e76c4115b73e3312f" datatype="html">
+        <source>Cost &amp; Payment</source>
+        <target>Cost &amp; Payment</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/customer-home/customer-home.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a059709f71aa4c0ac219e160e78a738682ca6a36" datatype="html">
+        <source>Import</source>
+        <target>Import</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/import-export/import-export.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="01bec47b1e928cc05b03c74c406adf31ad60e347" datatype="html">
+        <source>
+      Please upload the text file with exported data:
+    </source>
+    <target>Please upload the text file with exported data:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/import-export/import-export.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9ab9ee6193a7d5aa407306f49c084ae368f8e982" datatype="html">
+        <source>
+      Load file
+    </source>
+    <target>Load file</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/import-export/import-export.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5f19586aba912ec6eb123ec5ab609a3bcc073066" datatype="html">
+        <source>Export</source>
+        <target>Export</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/import-export/import-export.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f6cbd5b0d28b10dd7e0b4f94746c965c82984689" datatype="html">
+        <source>
+      Please click the button to download the exported data:
+    </source>
+    <target>Please click the button to download the exported data:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/import-export/import-export.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ee01460e5de00db955ae9468e1310e6756304093" datatype="html">
+        <source>
+      Download
+    </source>
+    <target>Download</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/import-export/import-export.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b356f6df8c1df8d1d86fe3a3dd857789578c841" datatype="html">
+        <source>New admin data</source>
+        <target>New admin data</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/register-admin/register-admin.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9f4bbd4331e10cd4951591724467384227b8994b" datatype="html">
+        <source>First name:
+      <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+    </source>
+    <target>First name:
+          <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/register-admin/register-admin.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dce0f5185c556937a654d4d3119f77c675e299c8" datatype="html">
+        <source>Last name:
+      <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+    </source>
+    <target>Last name:
+          <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/register-admin/register-admin.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1e8b5c273053238b0c1ab4c80dfb2b7c137bfddc" datatype="html">
+        <source>Email:
+      <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+    </source>
+    <target>Email:
+          <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/register-admin/register-admin.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="464198d9aa689e98c2b7fca7b002a6cd9a933013" datatype="html">
+        <source>Password:
+      <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+    </source>
+    <target>Password:
+          <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/register-admin/register-admin.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/register-smart-device/register-smart-device.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fc51ca75666e38f567581ee013fb7ab64bc31533" datatype="html">
+        <source>
+      Register
+    </source>
+    <target>
+          Register
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/register-admin/register-admin.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/register-smart-device/register-smart-device.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e59c6cfbb9671df0452450fa8ce09ce388f99816" datatype="html">
+        <source>New smart device data</source>
+        <target>New smart device data</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/register-smart-device/register-smart-device.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="530a487bd069c963eff601f51ec7542f8fb24794" datatype="html">
+        <source>Serial number:
+      <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+    </source>
+    <target>Serial number:
+          <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/register-smart-device/register-smart-device.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5df57810dd821de2c08ae9b1ef8b749160d38446" datatype="html">
+        <source>What is the new password?</source>
+        <target>What is the new password?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-reset-smart-device/admin-reset-smart-device.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6498fa1b8f563988f769654a75411bb8060134b9" datatype="html">
+        <source>Set new password</source>
+        <target>Set new password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-reset-smart-device/admin-reset-smart-device.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="133c6231d7d8e6f1994a3b7740b55c28c1ed750a" datatype="html">
+        <source>Smart devices</source>
+        <target>Smart devices</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-smart-devices/admin-smart-devices.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="89c58d6ef1d3a30770f66babefbfca9074654b8e" datatype="html">
+        <source>
+          SN: <x id="INTERPOLATION" equiv-text="{{smartDevice.serialNumber}}"/>
+        </source>
+        <target>
+          SN: <x id="INTERPOLATION" equiv-text="{{smartDevice.serialNumber}}"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-smart-devices/admin-smart-devices.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="00388c496ce86f299a46d87b7dbbd032b98c8316" datatype="html">
+        <source>
+                Inactive
+              </source>
+        <target>
+                Inactive
+              </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-smart-devices/admin-smart-devices.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d08bf4a320ba2c39e0ad0757a77d3b6d9daa50c3" datatype="html">
+        <source>
+                Active
+              </source>
+      <target>
+        Active
+      </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-smart-devices/admin-smart-devices.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f34fdecb5e206040ca07ff3de79ef84c6b5a261a" datatype="html">
+        <source>
+                Blocked
+              </source>
+        <target>
+                Blocked
+              </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-smart-devices/admin-smart-devices.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5753e608c52405ffc909fb0ae3f9439570ab6517" datatype="html">
+        <source>
+              Is turned on
+            </source>
+        <target>
+                      Is turned on
+                    </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-smart-devices/admin-smart-devices.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b5be198e364fcff966dc711bde4bef200fec8d12" datatype="html">
+        <source>
+              Is turned off
+            </source>
+<target>
+              Is turned off
+          </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-smart-devices/admin-smart-devices.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e01a03122ba22a10d81a1d9b1685f85a48047594" datatype="html">
+        <source>
+              Caching
+            </source>
+        <target>
+            Caching
+          </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-smart-devices/admin-smart-devices.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2ca36bffaa1cafe57342dfe031b4ed1aa303fe0b" datatype="html">
+        <source>
+              Not caching
+            </source>
+         <target>
+                       Not caching
+                     </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-smart-devices/admin-smart-devices.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b0ab8c1b1a1e5f112bd41176bb3bb5e3f592c1f6" datatype="html">
+        <source>
+          Block
+        </source>
+        <target>
+                  Block
+                </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-smart-devices/admin-smart-devices.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="265ee68edfe57e510270da31ec99f67d94346009" datatype="html">
+        <source>
+          Reset
+        </source>
+        <target>
+                  Reset
+                </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-smart-devices/admin-smart-devices.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="80570ce21faccdc8178e70679e6ec9ff42e12b14" datatype="html">
+        <source>Partner name:
+  <x id="INTERPOLATION" equiv-text="{{partnerFullName}}"/>
+</source>
+<target>Partner name:
+  <x id="INTERPOLATION" equiv-text="{{partnerFullName}}"/>
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-smart-device-statistics/admin-smart-device-statistics.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b057099c72d2e9c9289505d5b6563538589f0ea1" datatype="html">
+        <source>Partner email:
+  <x id="INTERPOLATION" equiv-text="{{partnerEmail}}"/>
+</source>
+<target>Partner email:
+  <x id="INTERPOLATION" equiv-text="{{partnerFullName}}"/>
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-smart-device-statistics/admin-smart-device-statistics.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1b7da82d27dc83c7e2b9f3decd113e81478ad2cc" datatype="html">
+        <source>
+  There isn&apos;t any views data for this smart device.
+</source>
+<target>
+  There isn&apos;t any views data for this smart device.
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin-components/admin-smart-device-statistics/admin-smart-device-statistics.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b88d76cb632f36cc03f6efa2bc9c45d643e6554e" datatype="html">
+        <source>
+    Payment amount: <x id="INTERPOLATION" equiv-text="{{paymentAmount | number: &apos;.2&apos;}}"/> $
+  </source>
+  <target>
+      Payment amount: <x id="INTERPOLATION" equiv-text="{{paymentAmount | number: &apos;.2&apos;}}"/> $
+    </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/customer-cost-payment/customer-cost-payment.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b8c8c58bc657a1ad65a7232e65fcadd62f22e3d8" datatype="html">
+        <source>
+      Please click the button to pay for services provided by CV-Ads:
+    </source>
+    <target>
+          Please click the button to pay for services provided by CV-Ads:
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/customer-cost-payment/customer-cost-payment.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d048ceaa7bbf68dedafcd92a831ff7962430ccaf" datatype="html">
+        <source>
+      Pay
+    </source>
+    <target>
+          Pay
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/customer-cost-payment/customer-cost-payment.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5f97c7240344a7c667b04a85bc135caee637424e" datatype="html">
+        <source>
+      Status: Published
+    </source>
+    <target>
+          Status: Published
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/advertisement-details/advertisement-details.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7c8a95cf9ab9273421f317f7ffcc211b8d37f60" datatype="html">
+        <source>
+      Status: Draft
+    </source>
+    <target>
+              Status: Draft
+            </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/advertisement-details/advertisement-details.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="925fef483b2ca04c346887f221ac2f265c7e7d13" datatype="html">
+        <source>🟢 Location: <x id="INTERPOLATION" equiv-text="{{location}}"/></source>
+        <target>🟢 Location: <x id="INTERPOLATION" equiv-text="{{location}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/advertisement-details/advertisement-details.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="388d8e1b77e5a657730b2c82e403e13ff3c143ef" datatype="html">
+        <source>🟢 Human limits: </source>
+        <target>🟢 Human limits: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/advertisement-details/advertisement-details.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f22d077edc7e8b993020242edccc6c33aee306e" datatype="html">
+        <source>🟢 Time limits: </source>
+        <target>🟢 Time limits: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/advertisement-details/advertisement-details.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b46de1e1b825c12172ab2dcba52d167ef6d40deb" datatype="html">
+        <source>🟢 Statistics:</source>
+        <target>🟢 Statistics:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/advertisement-details/advertisement-details.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="781695c6b78f56d11ccffa7c4cca48512f67c809" datatype="html">
+        <source>
+    There isn&apos;t any views data for this advertisement.
+  </source>
+  <target>
+      There isn&apos;t any views data for this advertisement.
+    </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/advertisement-details/advertisement-details.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3b3773d4bb7c7937f305b20d7acb58c0d894cf12" datatype="html">
+        <source>Location statistics:</source>
+        <target>Location statistics:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/advertisement-details/advertisement-details.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a56d8216e0410cd5e1ca58133b59cec8d3877381" datatype="html">
+        <source>Views and audience count per day statistics:</source>
+        <target>Views and audience count per day statistics:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/advertisement-details/advertisement-details.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b5b907e10472ed418f2cc6943e2776a5368d35c6" datatype="html">
+        <source>
+    My advertisements
+  </source>
+  <target>
+      My advertisements
+    </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/customer-advertisements/customer-advertisements.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b2c0b49b1523b2bb715f7fce1137ac71a93a99fc" datatype="html">
+        <source>Views count: <x id="INTERPOLATION" equiv-text="{{ad.viewsCount}}"/></source>
+        <target>Views count: <x id="INTERPOLATION" equiv-text="{{ad.viewsCount}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/customer-advertisements/customer-advertisements.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e8aa30c4918f7f0b938ee988411097672bdc838d" datatype="html">
+        <source>Views limit: <x id="INTERPOLATION" equiv-text="{{ad.viewsLimit}}"/></source>
+        <target>Views limit: <x id="INTERPOLATION" equiv-text="{{ad.viewsLimit}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/customer-advertisements/customer-advertisements.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5e4e2a506c883fda4c15a9dbbd12d41b5638432d" datatype="html">
+        <source>
+            Published:
+          </source>
+          <target>
+                      Published:
+                    </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/customer-advertisements/customer-advertisements.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="55ef13f587c3acbdb50991878ab72a3e24d8e981" datatype="html">
+        <source>Add human limit</source>
+        <target>Add human limit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/add-human-limit/add-human-limit.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fb246edc90a38aaf0f067acf4fff0170f17df55d" datatype="html">
+        <source>Gender:</source>
+        <target>Gender:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/add-human-limit/add-human-limit.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6c4a84852a02182694735568035b0bb14110d59d" datatype="html">
+        <source>Not specified</source>
+        <target>Not specified</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/add-human-limit/add-human-limit.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="097b5dfee5665aa0f7daba8b696acecde6445474" datatype="html">
+        <source>Male</source>
+        <target>Male</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/add-human-limit/add-human-limit.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="18f3bafdc69b800737e303bc1cb0753bd9dd3f32" datatype="html">
+        <source>Female</source>
+        <target>Female</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/add-human-limit/add-human-limit.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="56177cdf85d74a34601a0edff8b74dbfa454847c" datatype="html">
+        <source>Minimum age:
+    <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+  </source>
+  <target>Minimum age:
+      <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+    </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/add-human-limit/add-human-limit.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d73deaa95e834010a2ec51893176783cf06b948c" datatype="html">
+        <source>Maximum age:
+    <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+  </source>
+  <target>Maximum age:
+      <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+    </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/add-human-limit/add-human-limit.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b365e4910fd9ed37d107d42db802086eb3161583" datatype="html">
+        <source>Add new human limit</source>
+        <target>Add new human limit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/add-human-limit/add-human-limit.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="581ff67ebca08852e5e88a2954b6f69c7943fa6a" datatype="html">
+        <source>Add time period limit</source>
+        <target>Add time period limit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/add-time-limit/add-time-limit.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cdf38600a34aed3a40a4b5c98aeed2cb5b217108" datatype="html">
+        <source>From time:
+    <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+  </source>
+  <target>From time:
+      <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+    </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/add-time-limit/add-time-limit.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abb837ff9b193df7e892919b2b0260f1622d861a" datatype="html">
+        <source>To time:
+    <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+  </source>
+  <target>To time:
+      <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+    </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/add-time-limit/add-time-limit.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e6ccb42eef9c0a27cd5efeacba944524d338b302" datatype="html">
+        <source>Add new time period limit</source>
+        <target>Add new time period limit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/add-time-limit/add-time-limit.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="28748d5d973bdeaab9807b48b226c81bb7f1a2b3" datatype="html">
+        <source>General information</source>
+        <target>General information</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="616e206cb4f25bd5885fc35925365e43cf5fb929" datatype="html">
+        <source>Name:</source>
+        <target>Name:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2d1c79718d1c7700d730eaaad6769780e7cebdf7" datatype="html">
+        <source>Views count limit:</source>
+        <target>Views count limit:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65535ec0dfde0784dae94d34511aa3dc165048d7" datatype="html">
+        <source>Picture:</source>
+        <target>Picture:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d8676fc1085021312a5475c020807c48bec36f14" datatype="html">
+        <source>
+        Load picture
+      </source>
+      <target>
+              Load picture
+            </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ebc475143f2af7323c964bac99c3784ee9f2684" datatype="html">
+        <source>
+          Next
+        </source>
+        <target>
+                  Next
+                </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dda072452653db7b463ddc02d821ad0e1afc5121" datatype="html">
+        <source>Location configuration</source>
+        <target>Location configuration</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="33d64f1b5578cd3ff6413272a9bf0384e9c8626b" datatype="html">
+        <source>Country:</source>
+        <target>Country:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5f71766970c93d82a621274e3914ac401fbdebfa" datatype="html">
+        <source>City:</source>
+        <target>City:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cda31dbd724cf5f4fa7a4274d9120651490c8a8c" datatype="html">
+        <source>Back</source>
+        <target>Back</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f732c304c7433e5a83ffcd862c3dce709a0f4982" datatype="html">
+        <source>Next</source>
+        <target>Next</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dfd23c4e7daed8cd4d3e5be6ed69d6ec695f2ac0" datatype="html">
+        <source>Human limits</source>
+        <target>Human limits</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c9ba50be6db5695a41a65a1c6baf89023a9b2fea" datatype="html">
+        <source>No human limits specified.</source>
+        <target>No human limits specified.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8cd5be3d29b509e3731fb80231196269ae012e07" datatype="html">
+        <source>
+          Human Limits:
+        </source>
+        <target>
+                  Human Limits:
+                </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d71eb2dd2ab5230de872c51d6668b181959b8ce5" datatype="html">
+        <source>
+        Add human limit
+      </source>
+      <target>
+              Add human limit
+            </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="309c399b410bec03625343281737e064186f57da" datatype="html">
+        <source>Time limits</source>
+        <target>Time limits</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1cca286f6337e3a75a79a14550dd65a3f58f22b5" datatype="html">
+        <source>No time limits specified.</source>
+        <target>No time limits specified.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e3b52ad85d28d122eaa8921a95fdc382b07989c" datatype="html">
+        <source>
+          Time Limits:
+        </source>
+        <target>
+                  Time Limits:
+                </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="034af468a1f59d0f7b52eded255613b7abd63a3a" datatype="html">
+        <source>
+        Add time limit
+      </source>
+      <target>
+              Add time limit
+            </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8dd413cee2228118c536f503709329a4d1a395e2" datatype="html">
+        <source>Done</source>
+        <target>Done</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ca89034af8f22f1e35ca91782cfe98e430050c2" datatype="html">
+        <source>To create an advertisement click &apos;Create!&apos; button.</source>
+        <target>To create an advertisement click &apos;Create!&apos; button.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a441dc7416659c2ea100d1e73507e02c2744ae8d" datatype="html">
+        <source>Create!</source>
+        <target>Create!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-components/create-advertisement/create-advertisement.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
