@@ -534,12 +534,12 @@
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="b88d76cb632f36cc03f6efa2bc9c45d643e6554e" datatype="html">
+      <trans-unit id="af12ee0fe02a278c2613490661eae672559fc44f" datatype="html">
         <source>
-    Payment amount: <x id="INTERPOLATION" equiv-text="{{paymentAmount | number: &apos;.2&apos;}}"/> $
+    Payment amount: <x id="INTERPOLATION" equiv-text="{{paymentAmount}}"/> $
   </source>
   <target>
-      Вартість: <x id="INTERPOLATION" equiv-text="{{paymentAmount | number: &apos;.2&apos;}}"/> $
+      Вартість: <x id="INTERPOLATION" equiv-text="{{paymentAmount}}"/> $
     </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/customer-components/customer-cost-payment/customer-cost-payment.component.html</context>
