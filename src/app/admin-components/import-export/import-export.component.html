@@ -1,0 +1,27 @@
+<div>
+  <h2 i18n>Import</h2>
+  <hr>
+  <input #fileLoader type="file" accept="text/plain"
+         (change)="onFileSelectedAsync($event)" style="display: none">
+  <div style="display: flex; margin: auto 0;">
+    <p style="font-size: 20px;margin-top: auto; margin-bottom: auto; margin-right: 10px;" i18n>
+      Please upload the text file with exported data:
+    </p>
+    <button mat-raised-button (click)="fileLoader.click()" color="primary" i18n>
+      Load file
+    </button>
+  </div>
+</div>
+
+<div>
+  <h2 i18n>Export</h2>
+  <hr>
+  <div style="display: flex; margin: auto 0;">
+    <p style="font-size: 20px;margin-top: auto; margin-bottom: auto; margin-right: 10px;" i18n>
+      Please click the button to download the exported data:
+    </p>
+    <button mat-raised-button color="primary" (click)="onExport()" i18n>
+      Download
+    </button>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+<h2 i18n>Add time period limit</h2>
+<hr>
+
+<form ngNativeValidate (submit)="onAddTimeLimit()">
+  <label i18n>From time:
+    <input type="time" name="fromTime" required [(ngModel)]="fromTime">
+  </label>
+  <br><br>
+
+  <label i18n>To time:
+    <input type="time" name="toTime" required [(ngModel)]="toTime">
+  </label>
+  <br><br>
+
+  <button type="submit" mat-button color="accent">
+    <span style="font-size: 15px;" i18n>Add new time period limit</span>
+  </button>
+</form>

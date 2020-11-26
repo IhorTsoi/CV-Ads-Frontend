@@ -1,0 +1,75 @@
+<div>
+  <h2 i18n>Smart devices</h2>
+  <hr>
+
+  <mat-accordion *ngIf="smartDevices" multi>
+    <mat-expansion-panel *ngFor="let smartDevice of smartDevices; let i = index"
+      (opened)="onPanelChangeState(i, true)"
+      (closed)="onPanelChangeState(i, false)"
+      [expanded]="smartDevicePanelExpanded[i]">
+
+      <mat-expansion-panel-header>
+        <mat-panel-title i18n>
+          SN: {{smartDevice.serialNumber}}
+        </mat-panel-title>
+
+        <mat-panel-description>
+          <span class="spacer"></span>
+
+          <mat-chip-list aria-label="Smart device data">
+
+            <ng-container [ngSwitch]="smartDevice.mode">
+              <mat-chip color="warn" selected *ngSwitchCase="Mode.Inactive" i18n>
+                Inactive
+              </mat-chip>
+              <mat-chip color="accent" selected *ngSwitchCase="Mode.Active" i18n>
+                Active
+              </mat-chip>
+              <mat-chip *ngSwitchCase="Mode.Blocked" i18n>
+                Blocked
+              </mat-chip>
+            </ng-container>
+
+
+
+            <mat-chip color="accent" *ngIf="smartDevice.isTurnedOn" selected i18n>
+              Is turned on
+            </mat-chip>
+            <mat-chip color="accent" *ngIf="!smartDevice.isTurnedOn" i18n>
+              Is turned off
+            </mat-chip>
+
+            <mat-chip color="accent" *ngIf="smartDevice.isCaching" selected i18n>
+              Caching
+            </mat-chip>
+            <mat-chip color="accent" *ngIf="!smartDevice.isCaching" i18n>
+              Not caching
+            </mat-chip>
+          </mat-chip-list>
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+
+      <p *ngIf="errorMessage" style="color: #e43e32; font-size: 18px;">
+        {{errorMessage}}
+      </p>
+
+      <mat-button-toggle-group style="width: 100%;">
+        <mat-button-toggle color="warn" style="width: 50%;"
+          [disabled]="smartDevice.mode !== Mode.Active"
+          (change)="onBlockAsync(i)" i18n>
+          Block
+        </mat-button-toggle>
+        <mat-button-toggle color="accent" style="width: 50%;"
+          [disabled]="smartDevice.mode !== Mode.Blocked"
+          (change)="onResetAsync(i)" i18n>
+          Reset
+        </mat-button-toggle>
+      </mat-button-toggle-group>
+
+      <app-admin-smart-device-statistics *ngIf="smartDevicePanelExpanded[i]"
+        [smartDevice]="smartDevice">
+      </app-admin-smart-device-statistics>
+
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
