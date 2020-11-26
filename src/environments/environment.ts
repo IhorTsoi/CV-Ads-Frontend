@@ -21,5 +21,7 @@ export const environment = {
     changeStatusOfAdvertisement: BASE_API_URL + '/advertisements/{id}',
     getStatisticsForAdvertisement: BASE_API_URL + '/advertisements/{id}/views',
     createAdvertisement: BASE_API_URL + '/advertisements'
-  }
+  },
+  selfUAVersion: 'https://igortsoi.github.io/CV-Ads-Frontend/ua',
+  selfENVersion: 'https://igortsoi.github.io/CV-Ads-Frontend/en'
 };
