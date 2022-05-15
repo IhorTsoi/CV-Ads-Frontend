@@ -1,4 +1,4 @@
-const BASE_API_URL = 'https://c7b4-176-32-10-240.eu.ngrok.io/';
+const BASE_API_URL = 'https://c7b4-176-32-10-240.eu.ngrok.io';
 
 export const environment = {
   production: true,

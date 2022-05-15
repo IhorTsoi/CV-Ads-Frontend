@@ -1,4 +1,5 @@
 How-to deploy on GitHub pages:
+- run `npm install`
 - do the changes needed
 - set the backend url
 - run `ng build --localize --output-path docs`
