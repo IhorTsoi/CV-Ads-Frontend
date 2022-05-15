@@ -22,6 +22,6 @@ export const environment = {
     getStatisticsForAdvertisement: BASE_API_URL + '/advertisements/{id}/views',
     createAdvertisement: BASE_API_URL + '/advertisements'
   },
-  selfUAVersion: 'https://igortsoi.github.io/CV-Ads-Frontend/ua',
-  selfENVersion: 'https://igortsoi.github.io/CV-Ads-Frontend/en'
+  selfUAVersion: 'https://ihortsoi.github.io/CV-Ads-Frontend/ua',
+  selfENVersion: 'https://ihortsoi.github.io/CV-Ads-Frontend/en'
 };
