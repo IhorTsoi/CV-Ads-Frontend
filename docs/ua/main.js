@@ -1274,7 +1274,7 @@ class HumanLimit {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
 // const BASE_API_URL = 'https://c7b4-176-32-10-240.eu.ngrok.io';
-const BASE_API_URL = 'https://localhost:5001';
+const BASE_API_URL = 'https://192.168.0.101:5001';
 const environment = {
     production: false,
     baseAPIUrl: BASE_API_URL,
@@ -3934,26 +3934,26 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function AdminSmartDeviceStatisticsComponent_h2_6_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h2", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18n"](1, 7);
+function AdminSmartDeviceStatisticsComponent_h2_4_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h2", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18n"](1, 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
-function AdminSmartDeviceStatisticsComponent_div_7_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "canvas", 9);
+function AdminSmartDeviceStatisticsComponent_div_5_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "canvas", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("data", ctx_r1.pieChartData.values)("labels", ctx_r1.pieChartData.labels)("colors", ctx_r1.pieChartData.colors)("options", ctx_r1.pieChartData.options)("chartType", "pie");
 } }
-function AdminSmartDeviceStatisticsComponent_mat_divider_8_Template(rf, ctx) { if (rf & 1) {
+function AdminSmartDeviceStatisticsComponent_mat_divider_6_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "mat-divider", 0);
 } }
-function AdminSmartDeviceStatisticsComponent_div_10_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "canvas", 10);
+function AdminSmartDeviceStatisticsComponent_div_8_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "canvas", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -4093,46 +4093,34 @@ class AdminSmartDeviceStatisticsComponent {
     }
 }
 AdminSmartDeviceStatisticsComponent.ɵfac = function AdminSmartDeviceStatisticsComponent_Factory(t) { return new (t || AdminSmartDeviceStatisticsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_api_smart_device_service__WEBPACK_IMPORTED_MODULE_2__["SmartDeviceService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_language_selector_service__WEBPACK_IMPORTED_MODULE_3__["LanguageSelectorService"])); };
-AdminSmartDeviceStatisticsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AdminSmartDeviceStatisticsComponent, selectors: [["app-admin-smart-device-statistics"]], inputs: { smartDevice: "smartDevice" }, decls: 11, vars: 6, consts: function () { var i18n_0; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_3744322421078547107$$SRC_APP_ADMIN_COMPONENTS_ADMIN_SMART_DEVICE_STATISTICS_ADMIN_SMART_DEVICE_STATISTICS_COMPONENT_TS_1 = goog.getMsg("Partner name: {$interpolation}\n", { "interpolation": "\uFFFD0\uFFFD" });
-        i18n_0 = MSG_EXTERNAL_3744322421078547107$$SRC_APP_ADMIN_COMPONENTS_ADMIN_SMART_DEVICE_STATISTICS_ADMIN_SMART_DEVICE_STATISTICS_COMPONENT_TS_1;
+AdminSmartDeviceStatisticsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AdminSmartDeviceStatisticsComponent, selectors: [["app-admin-smart-device-statistics"]], inputs: { smartDevice: "smartDevice" }, decls: 9, vars: 5, consts: function () { var i18n_0; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_5096927675410727306$$SRC_APP_ADMIN_COMPONENTS_ADMIN_SMART_DEVICE_STATISTICS_ADMIN_SMART_DEVICE_STATISTICS_COMPONENT_TS_1 = goog.getMsg("Partner email: {$interpolation}\n", { "interpolation": "\uFFFD0\uFFFD" });
+        i18n_0 = MSG_EXTERNAL_5096927675410727306$$SRC_APP_ADMIN_COMPONENTS_ADMIN_SMART_DEVICE_STATISTICS_ADMIN_SMART_DEVICE_STATISTICS_COMPONENT_TS_1;
     }
     else {
-        i18n_0 = "\u0406\u043C'\u044F \u043F\u0430\u0440\u0442\u043D\u0435\u0440\u0430:\n  " + "\uFFFD0\uFFFD" + "\n";
+        i18n_0 = "\u0415\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u043D\u0430 \u043F\u043E\u0448\u0442\u0430 \u043F\u0430\u0440\u0442\u043D\u0435\u0440\u0430:\n  " + "\uFFFD0\uFFFD" + "\n";
     } var i18n_2; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_5096927675410727306$$SRC_APP_ADMIN_COMPONENTS_ADMIN_SMART_DEVICE_STATISTICS_ADMIN_SMART_DEVICE_STATISTICS_COMPONENT_TS_3 = goog.getMsg("Partner email: {$interpolation}\n", { "interpolation": "\uFFFD0\uFFFD" });
-        i18n_2 = MSG_EXTERNAL_5096927675410727306$$SRC_APP_ADMIN_COMPONENTS_ADMIN_SMART_DEVICE_STATISTICS_ADMIN_SMART_DEVICE_STATISTICS_COMPONENT_TS_3;
+        const MSG_EXTERNAL_9211724450998115848$$SRC_APP_ADMIN_COMPONENTS_ADMIN_SMART_DEVICE_STATISTICS_ADMIN_SMART_DEVICE_STATISTICS_COMPONENT_TS__3 = goog.getMsg(" There isn't any views data for this smart device.\n");
+        i18n_2 = MSG_EXTERNAL_9211724450998115848$$SRC_APP_ADMIN_COMPONENTS_ADMIN_SMART_DEVICE_STATISTICS_ADMIN_SMART_DEVICE_STATISTICS_COMPONENT_TS__3;
     }
     else {
-        i18n_2 = "\u0415\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u043D\u0430 \u043F\u043E\u0448\u0442\u0430 \u043F\u0430\u0440\u0442\u043D\u0435\u0440\u0430:\n  " + "\uFFFD0\uFFFD" + "\n";
-    } var i18n_4; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_9211724450998115848$$SRC_APP_ADMIN_COMPONENTS_ADMIN_SMART_DEVICE_STATISTICS_ADMIN_SMART_DEVICE_STATISTICS_COMPONENT_TS__5 = goog.getMsg(" There isn't any views data for this smart device.\n");
-        i18n_4 = MSG_EXTERNAL_9211724450998115848$$SRC_APP_ADMIN_COMPONENTS_ADMIN_SMART_DEVICE_STATISTICS_ADMIN_SMART_DEVICE_STATISTICS_COMPONENT_TS__5;
-    }
-    else {
-        i18n_4 = "\n  \u0420\u043E\u0437\u0443\u043C\u043D\u0438\u0439 \u043F\u0440\u0438\u0441\u0442\u0440\u0456\u0457 \u0449\u0435 \u043D\u0435 \u043F\u043E\u043A\u0430\u0437\u0443\u0432\u0430\u0432 \u0436\u043E\u0434\u043D\u043E\u0433\u043E \u043E\u0433\u043E\u043B\u043E\u0448\u0435\u043D\u043D\u044F.\n";
-    } return [[2, "margin-top", "20px", "margin-bottom", "20px"], i18n_0, i18n_2, ["style", "text-align: center; margin: 10px 0;", 4, "ngIf"], ["style", "display: block", 4, "ngIf"], ["style", "margin-top: 20px; margin-bottom: 20px;", 4, "ngIf"], [2, "text-align", "center", "margin", "10px 0"], i18n_4, [2, "display", "block"], ["baseChart", "", 3, "data", "labels", "colors", "options", "chartType"], ["baseChart", "", 3, "datasets", "labels", "options", "legend", "chartType"]]; }, template: function AdminSmartDeviceStatisticsComponent_Template(rf, ctx) { if (rf & 1) {
+        i18n_2 = "\n  \u0420\u043E\u0437\u0443\u043C\u043D\u0438\u0439 \u043F\u0440\u0438\u0441\u0442\u0440\u0456\u0457 \u0449\u0435 \u043D\u0435 \u043F\u043E\u043A\u0430\u0437\u0443\u0432\u0430\u0432 \u0436\u043E\u0434\u043D\u043E\u0433\u043E \u043E\u0433\u043E\u043B\u043E\u0448\u0435\u043D\u043D\u044F.\n";
+    } return [[2, "margin-top", "20px", "margin-bottom", "20px"], i18n_0, ["style", "text-align: center; margin: 10px 0;", 4, "ngIf"], ["style", "display: block", 4, "ngIf"], ["style", "margin-top: 20px; margin-bottom: 20px;", 4, "ngIf"], [2, "text-align", "center", "margin", "10px 0"], i18n_2, [2, "display", "block"], ["baseChart", "", 3, "data", "labels", "colors", "options", "chartType"], ["baseChart", "", 3, "datasets", "labels", "options", "legend", "chartType"]]; }, template: function AdminSmartDeviceStatisticsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "mat-divider", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h2");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18n"](2, 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h2");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18n"](4, 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "mat-divider", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, AdminSmartDeviceStatisticsComponent_h2_6_Template, 2, 0, "h2", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, AdminSmartDeviceStatisticsComponent_div_7_Template, 2, 5, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, AdminSmartDeviceStatisticsComponent_mat_divider_8_Template, 1, 0, "mat-divider", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, AdminSmartDeviceStatisticsComponent_div_10_Template, 2, 5, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "mat-divider", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, AdminSmartDeviceStatisticsComponent_h2_4_Template, 2, 0, "h2", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, AdminSmartDeviceStatisticsComponent_div_5_Template, 2, 5, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, AdminSmartDeviceStatisticsComponent_mat_divider_6_Template, 1, 0, "mat-divider", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, AdminSmartDeviceStatisticsComponent_div_8_Template, 2, 5, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18nExp"](ctx.partnerFullName);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18nApply"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18nExp"](ctx.partnerEmail);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18nApply"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18nApply"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.pieChartData.values.length === 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
