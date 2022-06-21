@@ -1273,8 +1273,8 @@ class HumanLimit {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
-// const BASE_API_URL = 'https://c7b4-176-32-10-240.eu.ngrok.io';
-const BASE_API_URL = 'https://192.168.0.101:5001';
+const BASE_API_URL = 'https://1f03-176-32-9-218.eu.ngrok.io';
+// const BASE_API_URL = 'https://192.168.0.101:5001';
 const environment = {
     production: false,
     baseAPIUrl: BASE_API_URL,

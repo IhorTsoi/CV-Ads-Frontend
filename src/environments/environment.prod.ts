@@ -1,5 +1,5 @@
-// const BASE_API_URL = 'https://c7b4-176-32-10-240.eu.ngrok.io';
-const BASE_API_URL = 'https://192.168.0.101:5001';
+const BASE_API_URL = 'https://1f03-176-32-9-218.eu.ngrok.io';
+// const BASE_API_URL = 'https://192.168.0.101:5001';
 
 export const environment = {
   production: true,
